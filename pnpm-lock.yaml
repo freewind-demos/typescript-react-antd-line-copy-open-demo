@@ -22,11 +22,11 @@ importers:
         specifier: ^10.0.1
         version: 10.0.1(eslint@10.2.1)
       '@line-copy-open/react':
-        specifier: 0.1.0
-        version: 0.1.0(rollup@4.60.2)
+        specifier: 0.2.0
+        version: 0.2.0(rollup@4.60.2)
       '@line-copy-open/vite':
-        specifier: 0.1.0
-        version: 0.1.0
+        specifier: 0.2.0
+        version: 0.2.0
       '@types/node':
         specifier: ^20.19.39
         version: 20.19.39
@@ -416,20 +416,20 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@line-copy-open/client@0.1.0':
-    resolution: {integrity: sha512-ulFwtGFaQUduD7clKL3rOpSDZpu+Hqg++cA4cUjeGytCvv/kzMOHBR2aIYcxFQx6oDkCc6vzMGkVuprV59WAdQ==}
+  '@line-copy-open/client@0.2.0':
+    resolution: {integrity: sha512-Ru6T5zWtflHhQQfc+am9VNolhN/vhMzjTxiqhGyelSMOM3OXg2M70Y0UBnn6hzPIe/Goo3SJKoQh2GY2oHfP5w==}
 
-  '@line-copy-open/react@0.1.0':
-    resolution: {integrity: sha512-ys7oIhgrMuogOlxmvX1aFFOPqxE8qsE6sNPTp1nfdxcPdJ1qS6PriY1dokFOaG/OGNAcsT9DiSutgZD6gHFvCw==}
+  '@line-copy-open/react@0.2.0':
+    resolution: {integrity: sha512-VzPJFFUN6sKclFQAW664JDEpi+A55yDoe+Lp2G2c+TnniqOWd1LFY63ItU0FjlGTT7xP4O8KvIELRaN4FpqtxA==}
 
-  '@line-copy-open/server@0.1.0':
-    resolution: {integrity: sha512-6Fi6FxGmI8B0bg9GedNIZLdLegbEu6q0/LM2IJF85IvC4pfhtgwtzGz3NzhZkmoZwcVOghNCx4UMctgLkh2gaw==}
+  '@line-copy-open/server@0.2.0':
+    resolution: {integrity: sha512-rQH7GlFGhOobdfRD0Fmtf3ibHwROVtqOPRDoVNSf5TnKKwiNgyqOvODXGyaSVMBi9FF9mGSEsiMjtkZi9u3P1g==}
 
-  '@line-copy-open/shared@0.1.0':
-    resolution: {integrity: sha512-K6A7G9Xnj8WPkCVJ8y+Csu2xmE1qzqMUngE9+LkFa/z/nnABtXb3/s2mpesr0k76HRpJhB7WAaAyAfF5f+TkZA==}
+  '@line-copy-open/shared@0.2.0':
+    resolution: {integrity: sha512-Ytod5OqZHDNdcgXid6BgLD6Tyi2ZaoMxdzcqklb12r9XYO7+2iC0JizCPH5C8chWKNjMrrSqlvblS+9clfOsdg==}
 
-  '@line-copy-open/vite@0.1.0':
-    resolution: {integrity: sha512-QYAegEFR6vK2qtZu+JMnLRK+HrSTNoUiFxlkW5oI/h139YUn6UlGGSR3sVhgxvbCEjJcDJ3+QOrP236ZF4GaSg==}
+  '@line-copy-open/vite@0.2.0':
+    resolution: {integrity: sha512-Hgd4v00bYwqK4Oto+Cd6YAR8Hi3tLLkeNMRUSMZIrCK+k4fP3hDI+p2yWBv0TXUVuTVhNoix61UFH0WHpxWX4w==}
 
   '@rc-component/async-validator@5.1.0':
     resolution: {integrity: sha512-n4HcR5siNUXRX23nDizbZBQPO0ZM/5oTtmKZ6/eqL0L2bo747cklFdZGRN2f+c9qWGICwDzrhW0H7tE9PptdcA==}
@@ -1908,18 +1908,18 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@line-copy-open/client@0.1.0':
+  '@line-copy-open/client@0.2.0':
     dependencies:
-      '@line-copy-open/shared': 0.1.0
+      '@line-copy-open/shared': 0.2.0
       outmatch: 1.0.0
 
-  '@line-copy-open/react@0.1.0(rollup@4.60.2)':
+  '@line-copy-open/react@0.2.0(rollup@4.60.2)':
     dependencies:
       '@babel/core': 7.29.0
       '@babel/parser': 7.29.2
       '@babel/plugin-syntax-jsx': 7.28.6(@babel/core@7.29.0)
       '@babel/plugin-syntax-typescript': 7.28.6(@babel/core@7.29.0)
-      '@line-copy-open/shared': 0.1.0
+      '@line-copy-open/shared': 0.2.0
       '@rollup/pluginutils': 5.3.0(rollup@4.60.2)
       '@types/babel__core': 7.20.5
       magic-string: 0.30.21
@@ -1928,22 +1928,22 @@ snapshots:
       - rollup
       - supports-color
 
-  '@line-copy-open/server@0.1.0':
+  '@line-copy-open/server@0.2.0':
     dependencies:
-      '@line-copy-open/shared': 0.1.0
+      '@line-copy-open/shared': 0.2.0
       connect: 3.7.0
       cors: 2.8.6
       launch-editor: 2.13.2
     transitivePeerDependencies:
       - supports-color
 
-  '@line-copy-open/shared@0.1.0': {}
+  '@line-copy-open/shared@0.2.0': {}
 
-  '@line-copy-open/vite@0.1.0':
+  '@line-copy-open/vite@0.2.0':
     dependencies:
-      '@line-copy-open/client': 0.1.0
-      '@line-copy-open/server': 0.1.0
-      '@line-copy-open/shared': 0.1.0
+      '@line-copy-open/client': 0.2.0
+      '@line-copy-open/server': 0.2.0
+      '@line-copy-open/shared': 0.2.0
     transitivePeerDependencies:
       - supports-color
 

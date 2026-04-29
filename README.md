@@ -1,8 +1,8 @@
-# React 19 + Vite + @line-copy-open 0.1
+# React 19 + Vite + @line-copy-open 0.2
 
 ## 简介
 
-这个 Demo 演示如何在 Vite + React 19 项目里使用 `@line-copy-open/vite@0.1.0` 和 `@line-copy-open/react@0.1.0`。
+这个 Demo 演示如何在 Vite + React 19 项目里使用 `@line-copy-open/vite@0.2.0` 和 `@line-copy-open/react@0.2.0`。
 
 运行后可以在浏览器里按住 Option 或 Alt 检查页面元素，并从元素定位到 React 源码。
 
@@ -25,7 +25,7 @@ pnpm dev
 vite --host --open
 ```
 
-这个 Demo 使用 npm registry 上的 `@line-copy-open/vite@0.1.0` 和 `@line-copy-open/react@0.1.0`，没有使用本地 workspace 依赖。
+这个 Demo 使用 npm registry 上的 `@line-copy-open/vite@0.2.0` 和 `@line-copy-open/react@0.2.0`，没有使用本地 workspace 依赖。
 
 ## 概念讲解
 
